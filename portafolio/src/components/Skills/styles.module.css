@@ -1,0 +1,119 @@
+
+
+.cont_main{
+    background-color: rgb(61, 61, 73);
+    height: 100%;
+    width: 100%;
+}
+.cont_title_resumen{
+    /* background-color: orange; */
+    height: 17%;
+    width: 50%;
+    padding-left: 11%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title_h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: 10;
+    letter-spacing: 1.2px;
+    color: rgb(233, 225, 225);
+}
+.title{
+    /* margin: 0; */
+    font-size: 2rem;
+    /* color: rgb(233, 225, 225); */
+    color: orange;
+    letter-spacing: 2px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+.title_skill{
+    font-size: 1.8rem;
+    color: rgb(233, 225, 225);
+    /* color: orange; */
+    letter-spacing: 3px;
+    font-weight:600;
+    /* text-decoration: underline orange;  */
+    font-family: 'Poppins', sans-serif;
+}
+.button_imgs{
+    color:greenyellow;
+    /* background-color: white; */
+    /* padding-left: 15%;
+    padding-top: 15%;
+    padding-bottom: 22%; */
+    font-size: 9.5rem;
+}
+.button_imgs:hover{
+    transform: scale(1.10);
+    /* width: 100%; */
+    transition: all 1.5s;
+}
+.img_redux{
+    padding-top: 0%;
+    width: 100%;
+    height: 100%;
+}
+.img_redux:hover{
+    transform: scale(1.10);
+    /* width: 100%; */
+    transition: all 1.5s;
+}
+.cont_imgs{
+    margin-left: 10%;
+    /* max-width: 800px; */
+    width: 80%;
+    height: 70%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap:5%;
+    grid-column-gap:5%;
+}
+.cont_item{
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: contain;
+    width: 80%;
+    height: 80%;
+    /* font-size: 70%; */
+}
+.imgs{
+    padding-top: 45%;
+    padding-bottom: 26%;
+    width: 100%;
+    
+}
+.imgs:hover{
+    transform: scale(1.10);
+    transition: all 1.5s;
+}
+.imgs2{
+    height: 80%;
+    width: 100%;
+    padding-top: 5%;
+}
+.imgs2:hover{
+    transform: scale(1.10);
+    transition: all 1.5s;
+}
+.skills_img{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+.skills_img:hover{
+    /* width: 120%; */
+    transform: scale(1.10);
+    width: 100%;
+    transition: all 1.5s;
+}

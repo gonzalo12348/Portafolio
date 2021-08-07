@@ -23,8 +23,9 @@ export default function BodyPrincipal () {
                 <Navbar />
                 <div className={styles.introduccion}>
                     <h3 className={styles.title_h3}>- Introduccion</h3>
-                    <h2 className={styles.title}>Full Stack Developer Web,<br/> de Argentina para el mundo</h2>
-                    <p className={styles.parrafo}>a background in sales and currently based in Colombia, working remotely (and constantly learning). Although my career path started in a different area, I’ve always been interested in the IT world and now that I’m in it, I’ve found in coding the perfect match for me. I’m passionate about solving problems through code and finding exclusive solutions to each one; and I’m excited to work alongside other amazing programmers and keep learning.</p>
+                    <h2 className={styles.title}><a href='.' className={styles.a_title}>Full Stack Developer Web,</a><br/> de Argentina para el mundo</h2>
+                    <p className={styles.parrafo}> Como Web Developer especializado en javascript, tengo algunos proyectos usando React.js como Front-End technologies y Node.js como Back-End technologies. <br/>Soy una persona amante por el aprendizaje, me divierto resolviendo problemas y creando cosas, me encanta conocer nuevas perspectivas, compartir mis conocimientos y leer libros ya sea de tecnología , de finanzas, de distintas ciencias que sean de mi interés.</p>
+                    {/* <p className={styles.parrafo}>a background in sales and currently based in Colombia, working remotely (and constantly learning). Although my career path started in a different area, I’ve always been interested in the IT world and now that I’m in it, I’ve found in coding the perfect match for me. I’m passionate about solving problems through code and finding exclusive solutions to each one; and I’m excited to work alongside other amazing programmers and keep learning.</p> */}
                     <h2 className={styles.title_h3_naranja}><a download href='https://drive.google.com/uc?export=download&id=1SvOVRSgBD-TaH6arcwd5TiytPjAtBR2p'>Mi CV -></a></h2>
                 </div>
             </div>
