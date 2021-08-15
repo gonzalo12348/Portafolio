@@ -5,6 +5,7 @@ import styles from './styles.module.css'
 export default function Resumen () {
     return (
         <div className={styles.cont_resumen}>
+            <section className={styles.section} id='section-resumen'>
             <div className={styles.cont_title_resumen}>
                 <h3 className={styles.title_h3}>- Resumen</h3>
                 <h2 className={styles.title}>Educación</h2>
@@ -54,6 +55,7 @@ export default function Resumen () {
                     </div>
                 </div>
             </div>
+            </section>
         </div>
     )
 }

@@ -3,9 +3,15 @@
     background-color: rgb(40, 40, 59);
     /* border: 2px solid orange; */
     height: 100%;
-    display: flex;font-size: 80%;
+    /* display: flex;font-size: 80%; 
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; */
+}
+.section{
+    height: 100%;
+    display: flex;font-size: 80%; 
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .cont_title_resumen{
     /* background-color: orange; */

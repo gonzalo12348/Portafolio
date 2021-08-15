@@ -26,7 +26,23 @@
     font-family: 'Poppins', sans-serif;
     transition: all 0.7s;
 }
+.title_a{
+    text-decoration: none;
+    font-size: auto;
+    font-size: 1.4rem;
+    color: rgb(233, 225, 225);
+    letter-spacing: 2px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.7s;
+}
 .title:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    cursor: pointer;
+    color: orange;
+}
+.title_a:hover{
     transform: scale(1.1);
     transition: all 0.7s;
     cursor: pointer;

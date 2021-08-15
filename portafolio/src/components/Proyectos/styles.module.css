@@ -4,6 +4,9 @@
     background-color: rgb(40, 40, 59);
     height: 100%;
 }
+.section_proyectos{
+    height: 100%;
+}
 .cont_title_resumen{
     /* background-color: orange; */
     height: 17%;
