@@ -190,3 +190,9 @@
     text-decoration: none;
     cursor: default;
 }
+.img_contacto{
+    width: 160%;
+    /* background-color: rgba(194, 16, 16, 0.285); */
+    /* color: rgba(0, 0, 0, 0.864); */
+    opacity: 0.5;
+}

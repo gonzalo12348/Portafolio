@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from './styles.module.css'
+import imagenDeContacto from '../../assets/img de contacto.png'
 
 
 export default function Contactame () {
@@ -24,7 +25,7 @@ export default function Contactame () {
                                     <h1 onClick={()=>setActivador(true)} className={styles.title_contacto}>Contactame aqui!</h1>
                                 </button>
                                 <div className={activador? styles.cont_img_off : styles.cont_img}>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpg0IfG-JR0c7G8jPN28Q8k3y4Bcie0qkr4Q&usqp=CAU" alt="pepePicture" />
+                                    <img className={styles.img_contacto} src={imagenDeContacto} alt="pepePicture" />
                                 </div>
                             </div>
 

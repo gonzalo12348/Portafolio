@@ -60,17 +60,21 @@
     transition: all 0.3s ease-out;
 }
 .cont_proyecto:hover{
-    width: 38%;
+    width: 37.5%;
     height: 120%;
     transition: all 0.3s ease-out;
 }
+/* .cont_proyecto:hover ~ .img{
+    height: 20rem;
+} */
+
 .item_proyectos_1{
     background-color:rgb(61, 61, 73);
     /* background: url('https://github.com/gonzalo12348/gonzalo12348/blob/main/Captura%20de%20pantalla%20(137).png?raw=true') no-repeat center; */
     background-size: cover;
     border: 3px solid rgb(61, 61, 73);
     width: 90%;
-    height: 80%;
+    height: 105%;
     position: relative;
     /* bottom: 50%; */
     display: flex;
@@ -110,8 +114,10 @@
 }
 .img{
     width: 100%;
+    height: 16rem;
     position: relative;
 }
+
 .title{
     /* margin: 0; */
     font-size: 2rem;
@@ -121,10 +127,24 @@
     font-weight:600;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-
+.button_github{
+    display: block;
+    cursor: pointer;
+    /* opacity: 0; */
+    /* display: none; */
+    /* position: relative; */
+    font-size: 4rem;
+    /* height: 100%; */
+    /* top: 50%; */
+}
+.button_github:hover{
+    color: orange;
+}
+/* .cont_proyecto:hover ~ .cont_button_github{
+    display: block;
+    opacity: 0;
+    color: rebeccapurple;
+} */
 
 
 
