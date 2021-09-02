@@ -2,6 +2,7 @@
 .cont_main{
     background-color: rgb(61, 61, 73);
     height: 100%;
+    /* width: 100vw; */
 }
 .title{
     margin: 0;

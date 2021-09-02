@@ -12,9 +12,9 @@ export default function IntroPage () {
             {/* <Navbar /> */}
             <BodyPrincipal />
             <Resumen />
-            <Proyectos />
-            <Skills />
-            <Contactame />
+            {/* <Proyectos /> */}
+            {/* <Skills /> */}
+            {/* <Contactame /> */}
         </div>
     )
 }

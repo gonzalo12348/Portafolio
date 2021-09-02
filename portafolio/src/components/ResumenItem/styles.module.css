@@ -1,0 +1,70 @@
+
+
+.educacion_item{
+    /* background-color: rgba(233, 225, 225, 0.199); */
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-right: 5%;
+}
+.button{
+    background-color: rgb(40, 40, 59);
+    border-radius: 80%;
+    border: 1px solid orange;
+    height: 1.2rem;
+    width: 1.2rem;
+    position: relative;
+    bottom: 4%;
+}
+.cont_edu_item_info{
+    /* background-color: red; */
+    padding: 2%;
+    padding-top: 3%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title{
+    /* font-size: 2.5rem;
+    color: rgb(233, 225, 225);
+    letter-spacing: 2px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif; */
+    padding-bottom: 1%;
+    font-size: 2rem;
+    color: rgb(233, 225, 225);
+    letter-spacing: 2px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+.title_h3_redirec{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 110%;
+    font-weight: 10;
+    letter-spacing: 1.2px;
+    color: rgb(233, 225, 225);
+}
+.title_h3_redirec:hover{
+    color: rgb(248, 203, 120);
+}
+.parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgb(233, 225, 225);
+    /* letter-spacing: 1.5px; */
+}
+.title_puesto{
+    padding-bottom: 1%;
+    font-size: 2rem;
+    /* color: rgb(233, 225, 225); */
+    color: orange;
+    letter-spacing: 2px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
