@@ -1,6 +1,9 @@
 import React from "react";
 import styles from './styles.module.css'
-
+import ProyectoItem from "../ProyectoItem/ProyectoItem";
+// import ResumenItem from "../ResumenItem/ResumenItem";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import imgCarousel from '../../assets/carousel-app.png'
 
 export default function Proyectos () {
     return (
@@ -10,27 +13,72 @@ export default function Proyectos () {
                     <h3 className={styles.title_h3}>- Proyectos</h3>
                     <h2 className={styles.title}>Proyectos</h2>
                 </div>
-                <div className={styles.cont_info_proyectos}>
-                </div>
-                <div className={styles.cont_item_proyectos}>
-                    <div className={styles.cont_proyecto}>
-                        <h3 className={styles.title_h3_proyecto}> Videogame App</h3>
-                        <div className={styles.item_proyectos_1}>
-                            <img onClick={()=>window.open('https://front-end-videogameapp.herokuapp.com')} className={styles.img} src="https://github.com/gonzalo12348/gonzalo12348/blob/main/Captura%20de%20pantalla%20(137).png?raw=true" alt="proyecto" />
-                        </div>
-                        <h3 className={styles.title_h3_proyecto}>Full Stack Developer</h3>
-                        <i onClick={()=>window.open('https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual')} className={`${styles.button_github} fab fa-github` }></i>
-                    </div>
-                    <div className={styles.cont_proyecto}>
-                        <h3 className={styles.title_h3_proyecto}> Yoagronomo App</h3>
-                        <div className={styles.item_proyectos_1}>
-                            <img onClick={()=>window.open('https://yoagronomoapp.vercel.app')} className={styles.img} src='https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual/blob/main/imgDemo/Yoagronomo.png?raw=true' alt="proyecto" />
-                        </div>
-                        <h3 className={styles.title_h3_proyecto}>Full Stack Developer(Front-End)</h3>
-                        <i onClick={()=>window.open('https://github.com/gonzalo12348/yoAgronomoApp')} className={`${styles.button_github} fab fa-github` }></i>
-                    </div>
+                {/* <div className={styles.cont_info_proyectos}>
+                </div> */}
 
+
+
+
+            <div id="carouselExampleIntervalx" className={`${styles.carousel_cont} carousel slide`} data-bs-ride="carousel">
+                <div className={`carousel-inner ${styles.carouselItem_cont}`}>
+                    <div className={`${styles.cont_item} carousel-item active`} data-bs-interval="100000">
+                        <ProyectoItem 
+                            nameProyecto={' Videogame App'}
+                            linkProyecto={'https://front-end-videogameapp.herokuapp.com'}
+                            linkGithub={'https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual'}
+                            img={"https://github.com/gonzalo12348/gonzalo12348/blob/main/Captura%20de%20pantalla%20(137).png?raw=true"}
+                            puesto={'Full Stack Developer'}
+                        />
+                    </div>
+                    <div className={`${styles.cont_item} carousel-item`}>
+                        <ProyectoItem 
+                            nameProyecto={' Yoagronomo App'}
+                            linkProyecto={'https://yoagronomoapp.vercel.app'}
+                            linkGithub={'https://github.com/gonzalo12348/yoAgronomoApp'}
+                            img={'https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual/blob/main/imgDemo/Yoagronomo.png?raw=true'}
+                            puesto={'Full Stack Developer (Front-End)'}
+                        />
+                    </div>
+                    <div className={`${styles.cont_item} carousel-item`}>
+                        <ProyectoItem 
+                            nameProyecto={' Carousel-App'}
+                            linkProyecto={'https://github.com/gonzalo12348/Carousel-App'}
+                            linkGithub={'https://github.com/gonzalo12348/Carousel-App'}
+                            img={imgCarousel}
+                            puesto={'Front-End (React-Native)'}
+                        />
+                    </div>
                 </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIntervalx" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIntervalx" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+                {/* <div className={styles.cont_item_proyectos}>
+                    <ProyectoItem 
+                        nameProyecto={' Videogame App'}
+                        linkProyecto={'https://front-end-videogameapp.herokuapp.com'}
+                        linkGithub={'https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual'}
+                        img={"https://github.com/gonzalo12348/gonzalo12348/blob/main/Captura%20de%20pantalla%20(137).png?raw=true"}
+                        puesto={'Full Stack Developer'}
+                    />
+                    <ProyectoItem 
+                        nameProyecto={' Yoagronomo App'}
+                        linkProyecto={'https://yoagronomoapp.vercel.app'}
+                        linkGithub={'https://github.com/gonzalo12348/yoAgronomoApp'}
+                        img={'https://github.com/gonzalo12348/Videojuegos-Proyecto-Individual/blob/main/imgDemo/Yoagronomo.png?raw=true'}
+                        puesto={'Full Stack Developer(Front-End)'}
+                    />
+                </div> */}
+
             </section>
         </div>
     )

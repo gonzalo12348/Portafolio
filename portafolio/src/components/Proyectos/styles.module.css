@@ -12,15 +12,16 @@
     height: 17%;
     width: 50%;
     padding-left: 11%;
-    padding-top: 3%;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .title_h3{
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    letter-spacing: 1.5px;
+    font-size: 100%;
+    font-weight: 10;
+    letter-spacing: 1.2px;
     color: rgb(233, 225, 225);
 }
 .cont_info_proyectos{
@@ -153,92 +154,6 @@
 
 /* --------- */
 
-.cont_main{
-    background-color: rgb(61, 61, 73);
-    height: 100%;
-    display: flex;
-}
-.cont_nameImg{
-    width: 55%;
-    height: 100%;
-    /* border: 1px solid saddlebrown; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: red; */
-}
-.cont_introduccion{
-    width: 45%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.title_h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 100%;
-    font-weight: 10;
-    letter-spacing: 1.2px;
-}
-.title_h3_naranja{
-    font-family: 'Poppins', sans-serif;
-    color: orange;
-    text-decoration: underline orange;
-    font-weight: 400;
-    font-size: 2rem;
-    cursor:pointer
-}
-.title_main{
-    /* margin: 0; */
-    font-size: 7.5rem;
-    color: rgb(233, 225, 225);
-    letter-spacing: 2px;
-    font-weight:600;
-    font-family: 'Poppins', sans-serif;
-}
-.parrafo{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 1.2rem;
-    /* letter-spacing: 1.5px; */
-}
-.introduccion{
-    /* background-color: aqua; */
-    width: 80%;
-    height: 100%;
-    padding-left: 5%;
-    padding-bottom: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items:flex-start;
-    color: rgb(233, 225, 225);
-
-}
-.button_imgs{
-    cursor: pointer;
-    height:5rem;
-    font-size: 3rem;
-    width: 5rem;
-    /* background-color: rgb(207, 140, 15); */
-    color: orange;
-}
-.cont_title_main{
-    /* background-color: orange; */
-    height: 45%;
-}
-.cont_iconos{
-    /* background-color: orangered; */
-    width: 58%;
-    display: flex;
-    justify-content:flex-start;
-}
-/* .img{
-    background-color:rgb(61, 61, 73);
-    width: 13%;
-    color: orange;
-} */
 a{
     font-family: 'Poppins', sans-serif;
     color: orange;
@@ -246,4 +161,45 @@ a{
     font-weight: 400;
     font-size: 2rem;
     cursor:pointer
+}
+
+
+
+/* Media Queries */
+
+/* Cel */
+@media (max-width: 480px) {
+
+    .cont_item{
+        /* display: flex; */
+        /* flex-direction: column; */
+        padding-top: 10%;
+        align-items: center;
+        padding-left: 5%;
+        /* background-color: rgb(40, 40, 59); */
+        /* background-color:rgb(61, 61, 73); */
+        /* border: 2px solid salmon; */
+        height: 75%;
+    }
+    .carouselItem_cont{
+        /* border: 2px solid green; */
+        height: 100%;
+    }
+    .carousel_cont{
+        /* border: 2px solid salmon; */
+        height: 83%;
+        background-color:rgb(61, 61, 73);
+        position: relative;
+        z-index: 9;
+    }
+    .carousel_cont::before{
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0; 
+        right:0;
+        bottom: 60%;
+        left: 0;
+        background-color: rgb(40, 40, 59);
+    }
 }

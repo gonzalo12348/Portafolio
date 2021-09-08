@@ -35,7 +35,7 @@ export default function BodyPrincipal () {
                         
                         <div className={styles.introduccion}>
                             <h3 className={styles.title_h3}>- Introduccion</h3>
-                            <h2 className={styles.title}><a href='.' className={styles.a_title}>Full Stack Developer Web,</a><br/> de Argentina para el mundo</h2>
+                            <h2 className={styles.title}><a href='.' className={styles.a_title}>Full Stack Web Developer,</a><br/> de Argentina para el mundo</h2>
                             <p className={styles.parrafo}> Como Web Developer especializado en javascript, tengo algunos proyectos usando React.js como Front-End technologies y Node.js como Back-End technologies. <br/>Soy una persona amante por el aprendizaje, me divierto resolviendo problemas y creando cosas, me encanta conocer nuevas perspectivas, compartir mis conocimientos y leer libros ya sea de tecnología , de finanzas, de distintas ciencias que sean de mi interés.</p>
                             <h2 className={styles.title_h3_naranja}><a download href='https://drive.google.com/uc?export=download&id=1SvOVRSgBD-TaH6arcwd5TiytPjAtBR2p'>Mi CV -></a></h2>
                         </div>

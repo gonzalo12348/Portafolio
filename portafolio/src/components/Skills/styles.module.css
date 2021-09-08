@@ -36,7 +36,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .title_skill{
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: rgb(233, 225, 225);
     /* color: orange; */
     letter-spacing: 3px;
@@ -58,9 +58,9 @@
     transition: all 1.5s;
 }
 .img_redux{
-    padding-top: 0%;
-    width: 100%;
-    height: 100%;
+    /* padding-top: 0%; */
+    width: 60%;
+    height: 65%;
 }
 .img_redux:hover{
     transform: scale(1.10);
@@ -86,8 +86,10 @@
     justify-content: space-between;
     align-items: center;
     background-size: contain;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
+    /* border: 2px solid blueviolet; */
+    /* margin-right: 20%; */
     /* font-size: 70%; */
 }
 .imgs{
@@ -111,13 +113,79 @@
 }
 .skills_img{
     /* border: 1px solid black; */
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 50%;
 }
 
 .skills_img:hover{
     /* width: 120%; */
-    transform: scale(1.10);
+    /* transform: scale(1.10); */
+    /* width: 100%;
+    transition: all 1.5s; */
+}
+.cont_itemCarousel{
+    /* border: 2px solid salmon; */
     width: 100%;
-    transition: all 1.5s;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding-left: 30%; */
+    /* align-items: center; */
+}
+.carousel_cont{
+    /* border: 4px solid black; */
+    /* padding: 1%; */
+}
+/* Media Queries */
+
+/* Cel */
+@media (max-width: 480px) {
+
+    .carousel_cont{
+        /* border: 2px solid black; */
+        height: 83%;
+    }
+    .carouselItem_cont{
+        height: 100%;
+        width: 95%;
+        padding-left: 5%;
+    }
+    .cont_itemCarousel{
+        /* border: 2px solid salmon; */
+        /* padding-left: 2%; */
+        width: 100%;
+        height: 100%;
+    }
+    .cont_skillsImg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* grid-column-gap: 5%; */
+        /* padding-left: 4%; */
+        margin-left: 4.5%;
+        padding-top: 1%;
+    }
+    .button_imgs{
+        color:greenyellow;
+        /* background-color: white; */
+        /* padding-left: 15%;
+        padding-top: 15%;
+        padding-bottom: 22%; */
+        font-size: 4rem;
+    }
+    .imgs{
+        padding-top: 25%;
+        padding-bottom: 5%;
+        width: 70%;
+    }
+    /* .img_redux{
+        padding-top: 0%;
+        width: 60%;
+        height: 45%;
+    } */
+    .imgs2{
+        height: 70%;
+        width: 50%;
+        padding-top: 0%;
+    }
 }

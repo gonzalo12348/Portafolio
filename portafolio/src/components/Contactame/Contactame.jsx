@@ -29,7 +29,7 @@ export default function Contactame () {
                                 </div>
                             </div>
 
-                            <div className={activador ? styles.contacto_info : styles.contacto_info_off}>
+                            {<div className={activador ? styles.contacto_info : styles.contacto_info_off}>
                                 <h3 className={styles.title_contact}>Puedes contactarme a través de:</h3>
                                 <ul>
                                     <li className={styles.li_item}>
@@ -53,7 +53,7 @@ export default function Contactame () {
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div>}
                             
                     </div>
 

@@ -1,0 +1,115 @@
+
+.cont_proyecto{
+    /* background-color:rgb(61, 61, 73); */
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 35%;
+    height: 115%;
+    position: relative;
+    bottom: 65%;
+    /* display: flex; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-items: center; */
+    transition: all 0.3s ease-out;
+}
+.cont_proyecto:hover{
+    width: 37.5%;
+    height: 120%;
+    transition: all 0.3s ease-out;
+}
+.title_h3_proyecto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    /* align-items:flex-end; */
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: rgb(233, 225, 225);
+    /* position: relative; */
+    /* bottom: 15%;
+    left: 10%; */
+    /* background-color: orangered; */
+    /* width: 50%;
+    height: 14%; */
+}
+.item_proyectos_1{
+    background-color:rgb(61, 61, 73);
+    /* background: url('https://github.com/gonzalo12348/gonzalo12348/blob/main/Captura%20de%20pantalla%20(137).png?raw=true') no-repeat center; */
+    background-size: cover;
+    border: 2px solid rgb(61, 61, 73);
+    width: 90%;
+    /* height: 50%; */
+    position: relative;
+    /* bottom: 50%; */
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+    /* align-items: center; */
+}
+.item_proyectos_1:hover{
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 16rem;
+    position: relative;
+}
+.button_github{
+    display: block;
+    cursor: pointer;
+    /* opacity: 0; */
+    /* display: none; */
+    /* position: relative; */
+    font-size: 4rem;
+    /* height: 100%; */
+    /* top: 50%; */
+}
+.button_github:hover{
+    color: orange;
+}
+
+/* Media Queries */
+
+/* Cel */
+@media (max-width: 480px) {
+
+    .cont_proyecto{
+        /* background-color:rgb(61, 61, 73); */
+        /* border: 2px solid rgb(255, 0, 0); */
+        width: 95%;
+        height: 115%;
+        position: relative;
+        bottom: 0rem;
+        /* display: flex; */
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-content: space-around; */
+        align-items:center;
+        /* align-items: center; */
+        transition: all 0.3s ease-out;
+    }
+    .img{
+        width: 98%;
+        height: 16rem;
+        position: relative;
+    }
+    .button_github{
+        color: orange;
+    }
+    .item_proyectos_1:hover{
+        border: none;
+        cursor: pointer;
+    }
+    .cont_proyecto:hover{
+        width: 95%;
+        height: 115%;
+        transition: all 0.3s ease-out;
+    }
+
+}
