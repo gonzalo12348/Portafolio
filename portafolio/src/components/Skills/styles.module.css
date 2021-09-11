@@ -139,7 +139,7 @@
 /* Media Queries */
 
 /* Cel */
-@media (max-width: 480px) {
+@media (max-width: 1100px) and (orientation:portrait) {
 
     .carousel_cont{
         /* border: 2px solid black; */
@@ -188,4 +188,7 @@
         width: 50%;
         padding-top: 0%;
     }
+}
+@media (min-width: 700px) and (orientation:portrait) {
+
 }

@@ -72,7 +72,7 @@
 /* Media Queries */
 
 /* Cel */
-@media (max-width: 480px) {
+@media (max-width: 1100px) and (orientation:portrait) {
 
     .educacion_item{
         /* background-color: rgba(233, 225, 225, 0.199); */
@@ -106,5 +106,38 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+}
+
+
+@media (min-width: 700px) and (min-height:1000px) {
+
+    .title{
+        font-size: 3.2rem;
+    }
+    .title_h3_redirec{
+        font-size: 200%;
+    }
+    .title_puesto{
+        font-size: 3.2rem;
+    }
+    .parrafo{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 200%;
+        color: rgb(233, 225, 225);
+        /* letter-spacing: 1.5px; */
+    }
+    .educacion_item{
+        /* background-color: rgba(233, 225, 225, 0.199); */
+        /* border: 1px solid white; */
+        width: 85%;
+        height: 35em;
+        display: flex;
+        position: relative;
+        z-index: 40;
+        flex-direction: column;
+        align-items:flex-start;
+        padding-right: 0;
     }
 }

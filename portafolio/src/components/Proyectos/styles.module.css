@@ -168,7 +168,7 @@ a{
 /* Media Queries */
 
 /* Cel */
-@media (max-width: 480px) {
+@media (max-width: 1100px) and (orientation:portrait) {
 
     .cont_item{
         /* display: flex; */
@@ -203,3 +203,16 @@ a{
         background-color: rgb(40, 40, 59);
     }
 }
+
+@media (min-width: 700px) and (min-height:1000px) {
+
+    .title_h3{
+        font-size: 200%;
+    }
+    .title{
+        font-size: 4rem;
+    }
+
+
+}
+
